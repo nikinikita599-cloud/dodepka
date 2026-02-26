@@ -10104,6 +10104,33 @@ def check_event_end():
     
     return False
 
+from flask import Flask
+from threading import Thread
+import os
+import time
+
+# Создаем Flask приложение
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot is running!"
+
+@app.route('/health')
+def health():
+    return "OK", 200
+
+def run_flask():
+    """Запуск Flask сервера"""
+    port = int(os.environ.get('PORT', 10000))
+    app.run(host='0.0.0.0', port=port, debug=False, use_reloader=False)
+
+# Запускаем Flask в отдельном потоке
+flask_thread = Thread(target=run_flask)
+flask_thread.daemon = True
+flask_thread.start()
+print("✅ Веб-сервер для Render запущен!")
+
 def main():
     print("🤖 Telegram Bot запускается...")
 
@@ -10690,18 +10717,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-from flask import Flask
-from threading import Thread
-import os
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Bot is running!"
-
-def run():
-    port = int(os.environ.get('PORT', 10000))
-    app.run(host='0.0.0.0', port=port)
-
-Thread(target=run).start()
