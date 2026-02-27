@@ -10661,8 +10661,8 @@ def main():
                 traceback.print_exc()
 
     # Запускаем консоль в отдельном потоке
-    console_thread = threading.Thread(target=console_commands, daemon=True)
-    console_thread.start()
+   # console_thread = threading.Thread(target=console_commands, daemon=True)
+   # console_thread.start()
 
     offset = None
     stats_update_interval = 1
