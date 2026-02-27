@@ -10714,30 +10714,54 @@ def main():
 
 if __name__ == "__main__":
     main()
-from flask import Flask
+# ===== ВЕБ-СЕРВЕР ДЛЯ LEAPCELL =====
+from flask import Flask, jsonify
 from threading import Thread
 import os
+import time
+import logging
+
+# Отключаем лишние логи Flask
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.ERROR)
 
 # Создаем Flask приложение
-app = Flask(__name__)
+web_app = Flask(__name__)
 
-# Обязательно добавь простую главную страницу
-@app.route('/')
+@web_app.route('/')
 def home():
-    return "Bot is running!"
+    """Главная страница"""
+    return jsonify({
+        "status": "running",
+        "service": "Telegram Bot",
+        "time": time.time()
+    })
 
-# Leapcell будет проверять этот адрес
-@app.route('/kaithheathcheck')
+@web_app.route('/kaithheathcheck')
+@web_app.route('/health')
 def health():
+    """Для проверки Leapcell"""
     return "OK", 200
 
-def run():
-    # КРИТИЧЕСКИ ВАЖНО: слушать порт 8080
-    port = int(os.environ.get('PORT', 8080))
-    app.run(host='0.0.0.0', port=port, debug=False)
+@web_app.route('/ping')
+def ping():
+    """Простой пинг"""
+    return "pong"
 
-# Запускаем Flask в отдельном потоке
-flask_thread = Thread(target=run)
-flask_thread.daemon = True
-flask_thread.start()
-print("✅ Веб-сервер для Leapcell запущен на порту 8080")
+def run_web():
+    """Запуск веб-сервера"""
+    try:
+        port = int(os.environ.get('PORT', 8080))
+        print(f"🌐 Запуск веб-сервера на порту {port}...")
+        web_app.run(host='0.0.0.0', port=port, debug=False, use_reloader=False)
+    except Exception as e:
+        print(f"❌ Ошибка запуска веб-сервера: {e}")
+
+# Запускаем веб-сервер в отдельном потоке
+web_thread = Thread(target=run_web)
+web_thread.daemon = True
+web_thread.start()
+
+# Даем время на запуск
+time.sleep(2)
+print("✅ Веб-сервер для Leapcell запущен")
