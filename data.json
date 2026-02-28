@@ -1,12 +1,13 @@
 {
   "users": {
     "6319679398": {
-      "balance": 1116240,
-      "username": "apathy_DSR",
+      "balance": 1108240,
+      "username": "apathy_DLC",
       "first_name": "Apathy",
       "status": "👑 Админ",
       "gifts": [
-        9
+        9,
+        17
       ],
       "business_level": 0,
       "business_upgrades": [],
@@ -30,8 +31,8 @@
       "active_boosters": {},
       "upgrades": [],
       "stats": {
-        "casino_wins": 10200,
-        "total_bets": 11,
+        "casino_wins": 50200,
+        "total_bets": 18,
         "jackpot_wins": 0,
         "successful_robs": 0,
         "items_sold": 0,
@@ -44,23 +45,14 @@
         "business_upgrades_bought": 0,
         "business_events_count": 0
       },
-      "achievements": [],
-      "achievements_progress": {},
-      "event_data": {
-        "points": 50,
-        "daily": {
-          "play_casino": 11
-        },
-        "special": {
-          "casino_wins_50000": 10200,
-          "total_bets_100": 11
-        },
-        "last_daily_reset": "2026-02-22T11:03:32.203176",
-        "play_casino_completed": true
-      }
+      "achievements": [
+        "casino_king",
+        "rich_man"
+      ],
+      "achievements_progress": {}
     },
     "8352292391": {
-      "balance": 8012506,
+      "balance": 2782399,
       "username": "WIRTUALPB",
       "first_name": "ＷＩＲＴＵＡＬ",
       "status": "👤 Пользователь",
@@ -68,9 +60,11 @@
         15,
         14,
         17,
-        16
+        16,
+        19,
+        22
       ],
-      "business_level": 25,
+      "business_level": 26,
       "business_upgrades": [],
       "business_manager": null,
       "business_bonuses": [],
@@ -78,9 +72,9 @@
       "business_stock": 0,
       "business_debt": 0,
       "business_insurance": false,
-      "last_income": "2026-02-24T20:36:44.306951",
+      "last_income": "2026-02-25T08:57:33.541149",
       "last_bonus": "2026-02-21T23:07:26.495355",
-      "last_rob": "2026-02-24T00:10:27.657702",
+      "last_rob": "2026-02-25T08:57:32.243801",
       "registered": "2026-02-21T23:05:29.062089",
       "market_items": [],
       "total_deposited": 0,
@@ -92,8 +86,8 @@
       "active_boosters": {},
       "upgrades": [],
       "stats": {
-        "casino_wins": 2046210,
-        "total_bets": 248,
+        "casino_wins": 2048210,
+        "total_bets": 251,
         "jackpot_wins": 0,
         "successful_robs": 3,
         "items_sold": 0,
@@ -112,33 +106,13 @@
         "tycoon",
         "casino_king",
         "gambler",
-        "generous_soul"
+        "generous_soul",
+        "gift_collector"
       ],
-      "achievements_progress": {},
-      "event_data": {
-        "points": 330,
-        "daily": {
-          "business_income": 4,
-          "play_casino": 84,
-          "use_booster": 1,
-          "treasury_rob": 1
-        },
-        "special": {
-          "robbery_10": 4,
-          "total_bets_100": 243,
-          "casino_wins_50000": 2046000
-        },
-        "last_daily_reset": "2026-02-24T00:01:08.703893",
-        "use_booster_completed": true,
-        "play_casino_completed": true,
-        "casino_wins_50000_completed": true,
-        "total_bets_100_completed": true,
-        "treasury_rob_completed": true,
-        "transfer_money_completed": true
-      }
+      "achievements_progress": {}
     },
     "8082647627": {
-      "balance": 13227,
+      "balance": 25693,
       "username": null,
       "first_name": "Home_228",
       "status": "👤 Пользователь",
@@ -153,7 +127,7 @@
       "business_insurance": false,
       "last_income": null,
       "last_bonus": "2026-02-22T18:57:13.457446",
-      "last_rob": "2026-02-23T18:11:30.654086",
+      "last_rob": "2026-02-25T19:51:34.347868",
       "registered": "2026-02-21T23:05:29.634582",
       "market_items": [],
       "total_deposited": 0,
@@ -166,7 +140,7 @@
         "casino_wins": 0,
         "total_bets": 0,
         "jackpot_wins": 0,
-        "successful_robs": 0,
+        "successful_robs": 1,
         "items_sold": 0,
         "money_given": 0,
         "donated_to_treasury": 0,
@@ -178,30 +152,20 @@
         "business_events_count": 0
       },
       "achievements": [],
-      "achievements_progress": {},
-      "event_data": {
-        "points": 35,
-        "daily": {
-          "treasury_rob": 3
-        },
-        "special": {
-          "robbery_10": 4
-        },
-        "last_daily_reset": "2026-02-23T04:16:48.361005",
-        "treasury_rob_completed": true
-      }
+      "achievements_progress": {}
     },
     "5387206226": {
-      "balance": 425852,
+      "balance": 1687031,
       "username": null,
       "first_name": "Alon396",
       "status": "👤 Пользователь",
       "gifts": [
         19,
         17,
-        16
+        16,
+        23
       ],
-      "business_level": 23,
+      "business_level": 25,
       "business_upgrades": [],
       "business_manager": null,
       "business_bonuses": [],
@@ -209,26 +173,28 @@
       "business_stock": 0,
       "business_debt": 0,
       "business_insurance": false,
-      "last_income": "2026-02-24T20:36:46.814206",
+      "last_income": "2026-02-27T11:54:54.173189",
       "last_bonus": "2026-02-24T20:36:45.574214",
-      "last_rob": "2026-02-24T20:36:45.011924",
+      "last_rob": "2026-02-25T07:15:58.608780",
       "registered": "2026-02-21T23:05:29.971444",
       "market_items": [],
       "total_deposited": 0,
       "total_withdrawn": 0,
       "purchases": [],
       "boosters": {
-        "double_income": 5,
-        "lucky_charm": 2,
+        "double_income": 9,
+        "lucky_charm": 5,
         "rainbow_bet": 1
       },
-      "active_boosters": {},
+      "active_boosters": {
+        "double_income": "2026-02-27T12:18:48.076504"
+      },
       "upgrades": [],
       "stats": {
-        "casino_wins": 10647780,
-        "total_bets": 1259,
+        "casino_wins": 22917780,
+        "total_bets": 2302,
         "jackpot_wins": 0,
-        "successful_robs": 2,
+        "successful_robs": 3,
         "items_sold": 0,
         "money_given": 13626,
         "donated_to_treasury": 0,
@@ -248,30 +214,7 @@
         "night_owl",
         "rainbow_hunter"
       ],
-      "achievements_progress": {},
-      "event_data": {
-        "points": 130,
-        "daily": {
-          "play_casino": 108,
-          "treasury_rob": 2,
-          "use_booster": 2,
-          "business_income": 2,
-          "transfer_money": 3
-        },
-        "special": {
-          "robbery_10": 7,
-          "casino_wins_50000": 10647780,
-          "total_bets_100": 1259
-        },
-        "last_daily_reset": "2026-02-24T00:36:47.111969",
-        "business_level_15_completed": true,
-        "casino_wins_50000_completed": true,
-        "play_casino_completed": true,
-        "transfer_money_completed": true,
-        "treasury_rob_completed": true,
-        "use_booster_completed": true,
-        "total_bets_100_completed": true
-      }
+      "achievements_progress": {}
     },
     "7224357589": {
       "balance": 100,
@@ -360,7 +303,7 @@
       "achievements_progress": {}
     },
     "7147164083": {
-      "balance": 1042413,
+      "balance": 1241598,
       "username": "Bossinch",
       "first_name": "Dofik",
       "status": "👤 Пользователь",
@@ -369,9 +312,10 @@
         1,
         17,
         19,
-        16
+        16,
+        21
       ],
-      "business_level": 18,
+      "business_level": 19,
       "business_upgrades": [],
       "business_manager": null,
       "business_bonuses": [],
@@ -379,9 +323,9 @@
       "business_stock": 0,
       "business_debt": 0,
       "business_insurance": false,
-      "last_income": "2026-02-24T21:17:56.684654",
-      "last_bonus": "2026-02-24T02:06:54.588702",
-      "last_rob": "2026-02-24T21:17:57.998166",
+      "last_income": "2026-02-27T08:53:41.716596",
+      "last_bonus": "2026-02-27T08:14:01.176608",
+      "last_rob": "2026-02-27T08:13:58.132751",
       "registered": "2026-02-21T23:05:36.089591",
       "market_items": [],
       "total_deposited": 0,
@@ -397,7 +341,7 @@
         "casino_wins": 5815740,
         "total_bets": 491,
         "jackpot_wins": 0,
-        "successful_robs": 1,
+        "successful_robs": 3,
         "items_sold": 0,
         "money_given": 420000,
         "donated_to_treasury": 0,
@@ -420,34 +364,16 @@
         "gift_collector"
       ],
       "achievements_progress": {},
-      "last_auto_collect": "2026-02-23T00:58:07.853492",
-      "event_data": {
-        "points": 405,
-        "daily": {
-          "treasury_rob": 2,
-          "business_income": 3
-        },
-        "special": {
-          "total_bets_100": 230,
-          "casino_wins_50000": 2742560,
-          "robbery_10": 2
-        },
-        "last_daily_reset": "2026-02-24T02:06:41.437683",
-        "use_booster_completed": true,
-        "casino_wins_50000_completed": true,
-        "play_casino_completed": true,
-        "business_level_15_completed": true,
-        "total_bets_100_completed": true,
-        "treasury_rob_completed": true
-      }
+      "last_auto_collect": "2026-02-23T00:58:07.853492"
     },
     "5861566958": {
-      "balance": 98023,
+      "balance": 215594,
       "username": "hoegarden01",
       "first_name": "hoegarden",
       "status": "👤 Пользователь",
       "gifts": [
-        17
+        17,
+        25
       ],
       "business_level": 11,
       "business_upgrades": [],
@@ -457,9 +383,9 @@
       "business_stock": 0,
       "business_debt": 0,
       "business_insurance": false,
-      "last_income": "2026-02-24T20:36:42.846814",
+      "last_income": "2026-02-25T04:11:39.049652",
       "last_bonus": "2026-02-22T00:30:06.444933",
-      "last_rob": "2026-02-24T20:36:41.989411",
+      "last_rob": "2026-02-25T13:38:15.159554",
       "registered": "2026-02-21T23:05:37.217975",
       "market_items": [],
       "total_deposited": 0,
@@ -475,7 +401,7 @@
         "casino_wins": 200020,
         "total_bets": 42,
         "jackpot_wins": 0,
-        "successful_robs": 0,
+        "successful_robs": 1,
         "items_sold": 0,
         "money_given": 336526,
         "donated_to_treasury": 0,
@@ -493,28 +419,10 @@
         "business_owner",
         "tycoon"
       ],
-      "achievements_progress": {},
-      "event_data": {
-        "points": 70,
-        "daily": {
-          "play_casino": 4,
-          "use_booster": 1,
-          "treasury_rob": 1,
-          "business_income": 1
-        },
-        "special": {
-          "casino_wins_50000": 140000,
-          "total_bets_100": 28,
-          "robbery_10": 2
-        },
-        "last_daily_reset": "2026-02-24T00:03:48.349132",
-        "use_booster_completed": true,
-        "casino_wins_50000_completed": true,
-        "play_casino_completed": true
-      }
+      "achievements_progress": {}
     },
     "6999365345": {
-      "balance": 1775826,
+      "balance": 3061428,
       "username": "OksajdShop_Raketa1",
       "first_name": "Руслан",
       "status": "👑 Админ",
@@ -529,7 +437,7 @@
       "business_stock": 0,
       "business_debt": 0,
       "business_insurance": false,
-      "last_income": "2026-02-24T20:37:46.708482",
+      "last_income": "2026-02-25T13:38:15.611810",
       "last_bonus": null,
       "last_rob": null,
       "registered": "2026-02-21T23:05:37.338354",
@@ -560,22 +468,12 @@
         "tycoon",
         "generous_soul"
       ],
-      "achievements_progress": {},
-      "event_data": {
-        "points": 70,
-        "daily": {
-          "business_income": 2
-        },
-        "special": {},
-        "last_daily_reset": "2026-02-24T10:37:48.870588",
-        "business_level_15_completed": true,
-        "business_income_completed": true
-      }
+      "achievements_progress": {}
     },
     "8400606365": {
       "balance": 100,
       "username": "fulldef1",
-      "first_name": "Moneta",
+      "first_name": "Metro_klasik",
       "status": "👑 Админ",
       "gifts": [],
       "business_level": 0,
@@ -713,24 +611,16 @@
         "generous_soul",
         "night_owl"
       ],
-      "achievements_progress": {},
-      "event_data": {
-        "points": 0,
-        "daily": {
-          "treasury_rob": 1
-        },
-        "special": {
-          "robbery_10": 1
-        },
-        "last_daily_reset": "2026-02-24T20:37:44.591299"
-      }
+      "achievements_progress": {}
     },
     "7290470234": {
-      "balance": 1124901,
+      "balance": 1274901,
       "username": "Userdemon127",
       "first_name": "Енотик",
       "status": "👤 Пользователь",
-      "gifts": [],
+      "gifts": [
+        24
+      ],
       "business_level": 19,
       "business_upgrades": [],
       "business_manager": null,
@@ -772,22 +662,7 @@
         "tycoon",
         "casino_king"
       ],
-      "achievements_progress": {},
-      "event_data": {
-        "points": 95,
-        "daily": {
-          "business_income": 1
-        },
-        "special": {
-          "robbery_10": 1,
-          "total_bets_100": 28,
-          "casino_wins_50000": 41400
-        },
-        "last_daily_reset": "2026-02-24T20:38:24.941094",
-        "transfer_money_completed": true,
-        "play_casino_completed": true,
-        "use_booster_completed": true
-      }
+      "achievements_progress": {}
     },
     "6991655451": {
       "balance": 100,
@@ -917,19 +792,148 @@
       },
       "achievements": [],
       "achievements_progress": {}
+    },
+    "7538007491": {
+      "balance": 100,
+      "username": "COCTRganster",
+      "first_name": "COCTR",
+      "status": "👤 Пользователь",
+      "gifts": [],
+      "business_level": 0,
+      "business_upgrades": [],
+      "business_manager": null,
+      "business_bonuses": [],
+      "business_events": {},
+      "business_stock": 0,
+      "business_debt": 0,
+      "business_insurance": false,
+      "last_income": null,
+      "last_bonus": null,
+      "last_rob": null,
+      "registered": "2026-02-24T21:58:13.490084",
+      "market_items": [],
+      "total_deposited": 0,
+      "total_withdrawn": 0,
+      "purchases": [],
+      "boosters": {},
+      "active_boosters": {},
+      "upgrades": [],
+      "stats": {
+        "casino_wins": 0,
+        "total_bets": 0,
+        "jackpot_wins": 0,
+        "successful_robs": 0,
+        "items_sold": 0,
+        "money_given": 0,
+        "donated_to_treasury": 0,
+        "night_games": 0,
+        "rainbow_wins": 0,
+        "found_secret": 0,
+        "business_income_total": 0,
+        "business_upgrades_bought": 0,
+        "business_events_count": 0
+      },
+      "achievements": [],
+      "achievements_progress": {}
+    },
+    "777000": {
+      "balance": 100,
+      "username": null,
+      "first_name": "Telegram",
+      "status": "👤 Пользователь",
+      "gifts": [],
+      "business_level": 0,
+      "business_upgrades": [],
+      "business_manager": null,
+      "business_bonuses": [],
+      "business_events": {},
+      "business_stock": 0,
+      "business_debt": 0,
+      "business_insurance": false,
+      "last_income": null,
+      "last_bonus": null,
+      "last_rob": null,
+      "registered": "2026-02-25T04:38:57.347671",
+      "market_items": [],
+      "total_deposited": 0,
+      "total_withdrawn": 0,
+      "purchases": [],
+      "boosters": {},
+      "active_boosters": {},
+      "upgrades": [],
+      "stats": {
+        "casino_wins": 0,
+        "total_bets": 0,
+        "jackpot_wins": 0,
+        "successful_robs": 0,
+        "items_sold": 0,
+        "money_given": 0,
+        "donated_to_treasury": 0,
+        "night_games": 0,
+        "rainbow_wins": 0,
+        "found_secret": 0,
+        "business_income_total": 0,
+        "business_upgrades_bought": 0,
+        "business_events_count": 0
+      },
+      "achievements": [],
+      "achievements_progress": {}
+    },
+    "7622450160": {
+      "balance": 100,
+      "username": "garik_sport",
+      "first_name": "Барбоскин",
+      "status": "👤 Пользователь",
+      "gifts": [],
+      "business_level": 0,
+      "business_upgrades": [],
+      "business_manager": null,
+      "business_bonuses": [],
+      "business_events": {},
+      "business_stock": 0,
+      "business_debt": 0,
+      "business_insurance": false,
+      "last_income": null,
+      "last_bonus": null,
+      "last_rob": null,
+      "registered": "2026-02-25T13:38:16.278686",
+      "market_items": [],
+      "total_deposited": 0,
+      "total_withdrawn": 0,
+      "purchases": [],
+      "boosters": {},
+      "active_boosters": {},
+      "upgrades": [],
+      "stats": {
+        "casino_wins": 0,
+        "total_bets": 0,
+        "jackpot_wins": 0,
+        "successful_robs": 0,
+        "items_sold": 0,
+        "money_given": 0,
+        "donated_to_treasury": 0,
+        "night_games": 0,
+        "rainbow_wins": 0,
+        "found_secret": 0,
+        "business_income_total": 0,
+        "business_upgrades_bought": 0,
+        "business_events_count": 0
+      },
+      "achievements": [],
+      "achievements_progress": {}
     }
   },
   "gift_sales": {},
   "items": {},
   "market_items": {},
   "stats": {
-    "total_users": 16,
+    "total_users": 19,
     "total_transactions": 43,
     "market_sales": 0,
     "promo_codes_used": 0,
     "total_deposited": 0,
-    "total_boosters_bought": 27,
-    "total_achievements": 42
+    "total_boosters_bought": 34,
+    "total_achievements": 45
   },
-  "treasury": 44228
-}
+  "treasury": 31938
+      }
